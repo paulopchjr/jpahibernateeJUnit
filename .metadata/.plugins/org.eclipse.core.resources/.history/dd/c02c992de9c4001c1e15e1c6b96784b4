@@ -1,0 +1,12 @@
+package model;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity // anotação principal o hibernate pega ela e e gera no banco
+public class UsuarioPessoa {
+
+	@Id 
+	private Long id;
+	
+}

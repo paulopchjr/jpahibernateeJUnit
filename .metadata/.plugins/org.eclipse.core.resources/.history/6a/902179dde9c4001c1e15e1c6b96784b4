@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+	
+	
+		<!-- Criando unidade persistente para conctar no banco e fazer operaçoes como crd -->
+	<persistence-unit name="cursojpahibernate">
+			<class>model.UsuarioPessoa</class>
+			<properties>
+				<!-- Dados de conexão com o banco -->
+				<property name="hibernate.connection.driver_class" value="org.postgresql.Driver"/>
+				<property name="hibernate.connection.url" value="jdbc:postgresql://localhost:5432/cursojpahibernate"/>
+				<property name="hibernqate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/> <!-- parte de persitencia e comunicação com o banco -->
+				<property name="hibernate.connection.user" value="postgres"/>
+				<property name="hibernate.connection.password" value="admin123"/>
+				<property name="hibernate.hbm2dll.atuo" value="update"/> <!-- Atualiza as tabelas quando for criada  -->
+			</properties>
+	</persistence-unit>
+</persistence>

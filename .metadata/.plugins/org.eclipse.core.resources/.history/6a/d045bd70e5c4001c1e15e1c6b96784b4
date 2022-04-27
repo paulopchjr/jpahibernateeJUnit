@@ -1,0 +1,10 @@
+package br.com.cursojpahibernate;
+
+import javax.persistence.EntityManagerFactory;
+
+public class HibernateUtil {
+	
+	// fabrica de conexao do hibernate
+	public static EntityManagerFactory factory = null;
+
+}

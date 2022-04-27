@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;cursojpahibernate&apos;" deleteContents="true" description="Delete resource &apos;cursojpahibernate&apos;" element1="/cursojpahibernate" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1650923548083"/>
+</session>
